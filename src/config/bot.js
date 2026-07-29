@@ -68,9 +68,9 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
-      approved: "#00FF00",
-      denied: "#FF0000",
+      pending: "#000000",
+      approved: "#000000",
+      denied: "#000000",
     },
 
     // How long users must wait before submitting another application (hours).
@@ -97,38 +97,38 @@ export const botConfig = {
       secondary: "#000000",
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287",
-      error: "#ED4245",
-      warning: "#FEE75C",
-      info: "#3498DB",
+      success: "#000000",
+      error: "#000000",
+      warning: "#000000",
+      info: "#000000",
 
       // Neutral utility colors.
-      light: "#FFFFFF",
-      dark: "#202225",
-      gray: "#99AAB5",
+      light: "#000000",
+      dark: "#000000",
+      gray: "#000000",
 
       // Discord-style palette shortcuts.
-      blurple: "#5865F2",
-      green: "#57F287",
-      yellow: "#FEE75C",
-      fuchsia: "#EB459E",
-      red: "#ED4245",
+      blurple: "#000000",
+      green: "#000000",
+      yellow: "#000000",
+      fuchsia: "#000000",
+      red: "#000000",
       black: "#000000",
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#",
+        ended: "#000000",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#000000",
+        claimed: "#000000",
+        closed: "#000000",
+        pending: "#000000",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#000000",
+      birthday: "#000000",
+      moderation: "#000000",
 
       // Ticket priority color mapping.
       priority: {
@@ -214,7 +214,7 @@ export const botConfig = {
   // =========================
   tickets: {
     // Category ID where new tickets are created (null = no forced category).
-    defaultCategory: null,
+    defaultCategory:1528377713600237588 ,
 
     // Role IDs allowed to manage/support tickets.
     supportRoles: [],
@@ -227,23 +227,23 @@ export const botConfig = {
         label: "None",
       },
       low: {
-        emoji: "🟢",
-        color: "#2ECC71",
+        emoji: "",
+        color: "#000000",
         label: "Low",
       },
       medium: {
-        emoji: "🟡",
-        color: "#F1C40F",
+        emoji: "",
+        color: "#000000",
         label: "Medium",
       },
       high: {
-        emoji: "🔴",
-        color: "#E74C3C",
+        emoji: "",
+        color: "#000000",
         label: "High",
       },
       urgent: {
         emoji: "🚨",
-        color: "#E91E63",
+        color: "#000000",
         label: "Urgent",
       },
     },
@@ -252,10 +252,10 @@ export const botConfig = {
     defaultPriority: "none",
 
     // Category ID where closed tickets are archived.
-    archiveCategory: null,
+    archiveCategory: 1528488209603100764,
 
     // Channel ID where ticket logs are sent.
-    logChannel: null,
+    logChannel: 1528400987826688011,
   },
 
   // =========================
@@ -291,7 +291,7 @@ export const botConfig = {
     defaultRole: null,
 
     // Channel ID where birthday announcements are posted.
-    announcementChannel: null,
+    announcementChannel: 1528387169704480938,
 
     // Timezone used to calculate birthday dates.
     timezone: "UTC",
@@ -305,7 +305,7 @@ export const botConfig = {
     defaultMessage: "Click the button below to verify yourself and gain access to the server!",
 
     // Text on the verification button.
-    defaultButtonText: "Verify",
+    defaultButtonText: "❤︎",
 
     // Automatic verification behavior.
     autoVerify: {
@@ -372,15 +372,18 @@ export const botConfig = {
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
-      "Welcome {user} to {server}! We now have {memberCount} members!",
+      "> _ _              wlcm 2        ` 𖹭，𖥻404z €eryx `  ！
+> _ _
+> _ _                        :   [law](https://discord.com/channels/1528278452959055983/1528385911769923634)，[annc](https://discord.com/channels/1528278452959055983/1528387169704480938)，[tix](https://discord.com/channels/1528278452959055983/1528387425259487442)
+                                       ",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
-      "{user} has left the server. We now have {memberCount} members.",
+      "{user} bye {user"",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1528391158143782932,
     // Channel ID for goodbye messages.
-    defaultGoodbyeChannel: null,
+    defaultGoodbyeChannel: 1528391158143782932,
   },
 
   // =========================
